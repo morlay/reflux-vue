@@ -7,3 +7,14 @@ src/
 .travis.yml
 .editorconfig
 .gitignore
+
+*.iml
+*.ipr
+*.iws
+*.ids
+*.log
+*.pyc
+.*.swp
+.idea
+.tern-project
+.DS_Store

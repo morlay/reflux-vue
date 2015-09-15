@@ -1,6 +1,6 @@
 {
   "name": "reflux-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mixin helpers link the [Reflux](https://github.com/reflux/reflux-core) and the [Vue](https://github.com/yyx990803/vue)",
   "main": "lib/index.js",
   "config": {
