@@ -1,7 +1,7 @@
 {
   "name": "reflux-vue",
   "version": "0.0.1",
-  "description": "",
+  "description": "A mixin helpers link the [Reflux](https://github.com/reflux/reflux-core) and the [Vue](https://github.com/yyx990803/vue)",
   "main": "lib/index.js",
   "config": {
     "MOCHA_OPTS": "--recursive test/"
@@ -19,11 +19,12 @@
     "reflux",
     "vue"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Morlay",
+  "license": "WTFPL",
   "devDependencies": {
     "babel": "^5.8.23",
     "chai": "^3.2.0",
+    "coveralls": "^2.11.4",
     "istanbul": "^0.3.20",
     "jsdom": "^6.5.0",
     "mocha": "^2.3.2",
@@ -33,5 +34,16 @@
   "dependencies": {
     "babel-runtime": "^5.8.24",
     "reflux-core": "^0.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morlay/reflux-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morlay/reflux-vue/issues"
+  },
+  "homepage": "https://github.com/morlay/reflux-vue#readme"
 }
