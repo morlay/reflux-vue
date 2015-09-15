@@ -1,0 +1,6 @@
+verbose: false
+instrumentation:
+  extensions:
+    - .js
+  excludes:
+    - test/helpers/*

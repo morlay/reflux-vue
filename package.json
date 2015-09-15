@@ -1,0 +1,37 @@
+{
+  "name": "reflux-vue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "config": {
+    "MOCHA_OPTS": "--recursive test/"
+  },
+  "scripts": {
+    "coverage": "istanbul cover _mocha -- $npm_package_config_MOCHA_OPTS",
+    "unit-test": "mocha $npm_package_config_MOCHA_OPTS",
+    "build": "babel src/ --out-dir lib/",
+    "test": "npm run coverage"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": [
+    "reflux",
+    "vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.20",
+    "jsdom": "^6.5.0",
+    "mocha": "^2.3.2",
+    "sinon": "^1.16.1",
+    "vue": "^0.12.14"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.24",
+    "reflux-core": "^0.2.1"
+  }
+}

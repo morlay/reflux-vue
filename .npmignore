@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+test/
+src/
+
+.istanbul.yml
+.travis.yml
+.editorconfig
+.gitignore

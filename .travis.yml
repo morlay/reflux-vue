@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - "4.0"
+
+branches:
+  except:
+    - gh-pages
+
+after_script:
+  - if [[ `node --version` == *v0.12* ]]; then cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; fi

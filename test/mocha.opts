@@ -1,0 +1,4 @@
+-r test/helpers/jsdom.js
+-R dot
+--compilers .:babel/register
+test/*.spec.js
